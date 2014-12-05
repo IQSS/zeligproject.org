@@ -1,0 +1,8 @@
+#!/bin/sh
+cd /webapps/code/zeligproject.org
+git status
+git pull
+scl enable python27 '/webapps/code/zeligproject.org/deploy/post-build2'
+echo "Updating R packages"
+
+echo "Done"

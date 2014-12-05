@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /webapps/code/zeligproject.org/deploy
+Rscript librarysetup.r
