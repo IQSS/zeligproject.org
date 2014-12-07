@@ -2,5 +2,6 @@
 # This script should be run with the a wrapper script enabling Python 2.7
 echo "Building docs and copying them into place"
 cd /webapps/code/docs.zeligproject.org/doc
+Rscript source/knitall.R
 make html
 rsync -auv --delete build/html/  /opt/rh/httpd24/root/var/www/docs.zeligproject.org
