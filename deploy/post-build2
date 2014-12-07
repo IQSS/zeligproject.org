@@ -2,6 +2,15 @@
 # This script should be run with the a wrapper script enabling Python 2.7
 echo "Building docs and copying them into place"
 cd /webapps/code/docs.zeligproject.org/doc
+#git status
+#rm -f source/installation_quickstart.rst
+#rm -f `find source | grep 'source/zelig-.*\.rst$'`
+Rscript source/knitquickstart.R
 Rscript source/knitall.R
+#make clean && mkdir build/html
+#rm -f /webapps/code/docs.zeligproject.org/doc/source/figure/Scatterplot.png
+#rm -f /webapps/code/docs.zeligproject.org/doc/source/figure/Scatterplot-1.png
+#rm -f /webapps/code/docs.zeligproject.org/doc/source/_images/Scatterplot.png
+#rm -f /webapps/code/docs.zeligproject.org/doc/source/_images/Scatterplot-1.png
 make html
 rsync -auv --delete build/html/  /opt/rh/httpd24/root/var/www/docs.zeligproject.org
