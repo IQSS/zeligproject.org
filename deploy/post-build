@@ -4,5 +4,5 @@ git status
 git pull
 scl enable python27 '/webapps/code/zeligproject.org/deploy/post-build2'
 echo "Updating R packages"
-
+# FIXME on every build, run /webapps/code/zeligproject.org/deploy/update-R-packages ?
 echo "Done"

@@ -12,7 +12,7 @@ rpm -Uvh http://dl.fedoraproject.org/pub/epel/6Server/x86_64/epel-release-6-8.no
 rpm --import http://ftp.scientificlinux.org/linux/scientific/6.4/x86_64/os/RPM-GPG-KEY-sl
 yum install -y http://ftp.scientificlinux.org/linux/scientific/6.4/x86_64/external_products/softwarecollections/yum-conf-softwarecollections-1.0-1.el6.noarch.rpm
 # httpd24 because we may want python27-mod_wsgi some day for Django
-yum install -y python27 python27-mod_wsgi httpd24 ack elinks R-core R-devel
+yum install -y python27 python27-mod_wsgi httpd24 ack elinks R-core R-devel dvipng curl-devel
 echo "Installing pip for Python 2.7"
 scl enable python27 "easy_install pip"
 echo "Install virtualenvwrapper"
