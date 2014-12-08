@@ -6,8 +6,8 @@ source /opt/rh/python27/root/usr/bin/virtualenvwrapper.sh
 echo "Setup virtualenv"
 mkdir -p /webapps/virtualenvs
 export WORKON_HOME=/webapps/virtualenvs
-mkvirtualenv docs_zeligproject_org
-workon docs_zeligproject_org
+mkvirtualenv docs.zeligproject.org
+workon docs.zeligproject.org
 pip install -r /webapps/code/zeligproject.org/requirements.txt
 
 cd /webapps/code/

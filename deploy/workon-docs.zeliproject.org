@@ -1,0 +1,4 @@
+#!/bin/sh
+source /opt/rh/python27/root/usr/bin/virtualenvwrapper.sh
+export WORKON_HOME=/webapps/virtualenvs
+workon docs.zeligproject.org
