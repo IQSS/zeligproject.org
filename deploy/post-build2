@@ -25,6 +25,6 @@ make html
 make latexpdf
 # expected (for now) that files changes, sampling?
 # FIXME: put this in en/latest
-rsync -auv --delete --checksum build/html/  /opt/rh/httpd24/root/var/www/docs.zeligproject.org
+rsync -auv --delete --checksum build/html/  /opt/rh/httpd24/root/var/www/docs.zeligproject.org/en/latest
 file /webapps/code/docs.zeligproject.org/doc/build/latex/Zelig.pdf
-echo "FIXME: where should the PDF go? And should everything go in en/latest?"
+echo "FIXME: where should the PDF go?"
