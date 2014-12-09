@@ -29,6 +29,10 @@ su plaid -l -s /bin/sh -c 'cd /webapps/code && cp -r /git/zeligproject.org .'
 cp /webapps/code/zeligproject.org/deploy/files/etc/sudoers.d/plaid /etc/sudoers.d
 chmod 640 /etc/sudoers.d/plaid
 
+# more memory to build Zelig PDF
+cp -a /usr/share/texmf/web2c/texmf.cnf /usr/share/texmf/web2c/texmf.cnf.orig
+cp /webapps/code/zeligproject.org/deploy/files/usr/share/texmf/web2c/texmf.cnf /usr/share/texmf/web2c/texmf.cnf
+
 #
 # configure apache
 #

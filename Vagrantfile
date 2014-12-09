@@ -18,4 +18,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # from your laptop, access Apache running on the VM at http://localhost:8000
   config.vm.network "forwarded_port", guest: 80, host: 8000
 
+  # not sure the VM itself needs more memory
+  # memory increased at /usr/share/texmf/web2c/texmf.cnf
+  config.vm.provider "virtualbox" do |vb|
+    vb.customize ["modifyvm", :id, "--memory", "4096"]
+  end
+
 end
