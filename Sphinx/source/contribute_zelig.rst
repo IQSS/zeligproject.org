@@ -1,7 +1,9 @@
+.. raw:: html
+   :file: zelignav.html
+
 ================================
 Contribute to Zelig
 ================================
-
 
 |image1|  
 

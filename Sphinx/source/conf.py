@@ -113,11 +113,11 @@ html_theme = 'bootstrap'
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
     # 'navbar_title': "Demo",
-    'navbar_title': "Zeligproject",
+    # 'navbar_title': "Zeligproject",
     
     # Tab name for entire site. (Default: "Site")
     # 'navbar_site_name': "Site",
-    'navbar_site_name': "About",
+    # 'navbar_site_name': "About",
     
     # A list of tuples containing pages or urls to link to.
     # Valid tuples should be in the following forms:
@@ -127,9 +127,9 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     # 'navbar_links': [
-    #     ("Examples", "examples"),
-    #     ("Link", "http://example.com", True),
-    # ],
+    #    ("About", "About"),
+    #    ("Link", "http://example.com", True),
+    #],
     
     # Global TOC depth for "site" navbar tab. (Default: 1)
     # Switching to -1 shows all levels.
@@ -142,11 +142,17 @@ html_theme_options = {
     # will break.
     #
     # Values: "true" (default) or "false"
-    'globaltoc_includehidden': "false",
+    'globaltoc_includehidden': "true",
     
     # HTML navbar class (Default: "navbar") to attach to <div> element.
     # For black navbar, do "navbar navbar-inverse"
     'navbar_class': "navbar-inverse",
+
+    # Render the next and previous page links in navbar. (Default: true)
+    'navbar_sidebarrel': False,
+
+    # Render the current pages TOC in the navbar. (Default: true)
+    'navbar_pagenav': False,
     
     # Fix navigation bar to top of page?
     # Values: "true" (default) or "false"
@@ -191,7 +197,7 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = 'Zelig Project'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -307,7 +313,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'zelig', u'Zelig Documentation',
+    ('index', 'zelig', u'Zelig Project',
      [u'IQSS'], 1)
 ]
 
@@ -321,7 +327,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Zelig', u'Zelig Documentation',
+  ('index', 'Zelig', u'Zelig Project',
    u'IQSS', 'Zelig', 'One line description of project.',
    'Miscellaneous'),
 ]
