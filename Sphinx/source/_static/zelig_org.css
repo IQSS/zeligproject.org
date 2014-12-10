@@ -26,6 +26,14 @@ iframe {
 	border:0;
 }
 
-.navbar-default a.navbar-brand {
+.navbar-default a.navbar-brand, .navbar-default a.navbar-brand:hover {
     color: #1D4125;
+}
+
+a.headerlink {
+	display: none;
+}
+
+#welcome h1 {
+	display: none;
 }

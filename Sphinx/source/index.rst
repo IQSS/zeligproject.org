@@ -15,18 +15,22 @@
 .. raw:: html
    :file: zelignav.html
 
+================================
+Welcome
+================================
+
 .. raw:: html
 
  <div class="container">
         
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-          <h2 style="color:#1D4125;">Zelig  &#151; Everyone's Statistical Software</h2 >
+          
           <div class="row" style="margin:0;">
             
             <div class="col-md-7" style="padding-left:0;">
-              
-              <p>Repository framework for research data that provides <b>long term preservation</b> and <b>good archival practices</b>. Researchers can <b>share, keep control</b> of and get <b>recognition</b> for their data with a persistent data citation, to enable reproducible research.</p>
+              <h2 style="color:#1D4125;">Zelig  &#151; Everyone's Statistical Software</h2>
+              <p>With <b>three simple commands</b>, Zelig’s intuitive <b>model wrapping</b> interface presents results for <b>wide ranging statistical models</b>, automates <b>graphics</b>, and translates statistical estimates into interpretable <b>quantities of interest</b>. Zelig makes the <b>power of R</b> accessible for all users.</p>
             </div>
 
             <div class="col-md-5">
