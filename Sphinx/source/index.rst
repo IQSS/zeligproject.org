@@ -21,7 +21,7 @@
         
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-          <h2 style="color:#1D4125;">Zelig Project</h2 >
+          <h2 style="color:#1D4125;">Zelig  &#151; Everyone's Statistical Software</h2 >
           <div class="row" style="margin:0;">
             
             <div class="col-md-7" style="padding-left:0;">
