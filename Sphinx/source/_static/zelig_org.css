@@ -37,3 +37,21 @@ a.headerlink {
 #welcome h1 {
 	display: none;
 }
+
+#surveyTab {
+    position:fixed;
+    bottom:0;
+    right:50px;
+}
+#surveyTab button {
+    margin-right:89px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#surveyTabBody div.panel {
+    width:180px;
+    margin:0;
+    background:#F8F8F8;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
