@@ -48,7 +48,7 @@ Welcome
                       <div class="text-left" style="padding:12px; font-size:21px;">Quickstart</div>
                     </div>
                     <div class="bg-info" style="padding:12px;background-color:#AAB8AD;">
-                      <a href="http://docs.zeligproject.org/en/latest/installation_quickstart.html" target="_blank"><img src="_static/zeligquickstart.png" alt="Zelig Quickstart" width="336" /></a>
+                      <a href="http://docs.zeligproject.org/en/latest/installation_quickstart.html" target="_blank"><img class="img-responsive" src="_static/zeligquickstart.png" alt="Zelig Quickstart" width="336" /></a>
                       <p class="text-left" style="font-size: 18px; font-weight: 200;">Start using Zelig in 10 minutes.</p>
                     </div>
                    </div>
@@ -62,7 +62,7 @@ Welcome
                       <div class="text-left" style="padding:12px; font-size:21px;">Models</div>
                     </div>
                     <div class="bg-info" style="padding:12px;background-color:#ADAAB8;">
-                      <a href="http://docs.zeligproject.org/en/latest/installation_quickstart.html" target="_blank"><img src="_static/zeligmodels.png" alt="Zelig" width="336" /></a>
+                      <a href="http://docs.zeligproject.org/en/latest/installation_quickstart.html" target="_blank"><img class="img-responsive" src="_static/zeligmodels.png" alt="Zelig" width="336" /></a>
                       <p class="text-left" style="font-size: 18px; font-weight: 200;">Explore all models supported in Zelig 5.</p>
                     </div>
                    </div>
@@ -76,7 +76,7 @@ Welcome
                       <div class="text-left" style="padding:12px; font-size:21px;">Community</div>
                     </div>
                     <div class="bg-info" style="padding:12px;background-color:#B8ADAA;">
-                      <a href="team_community.html"><img src="_static/zeligcommunity.png" alt="Zelig Community" width="336" /></a>
+                      <a href="team_community.html"><img class="img-responsive" src="_static/zeligcommunity.png" alt="Zelig Community" width="336" /></a>
                       <p class="text-left" style="font-size: 18px; font-weight: 200;">Join the Zelig community.</p>
                     </div>
                    </div>
