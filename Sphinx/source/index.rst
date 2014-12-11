@@ -30,7 +30,7 @@ Welcome
             
             <div class="col-md-7" style="padding-left:0;">
               <h2 style="color:#1D4125;">Zelig  &#151; Everyone's Statistical Software</h2>
-              <p>With <b>three simple commands</b>, Zelig’s intuitive <b>model wrapping</b> interface presents results for <b>wide ranging statistical models</b>, automates <b>graphics</b>, and translates statistical estimates into interpretable <b>quantities of interest</b>. Zelig makes the <b>power of R</b> accessible for all users.</p>
+              <p>With <b>three simple commands</b>, Zelig’s intuitive <b>model bridging</b> interface presents results for <b>wide ranging statistical models</b>, automates <b>graphics</b>, and translates statistical estimates into interpretable <b>quantities of interest</b>. Zelig makes the <b>power of R</b> accessible for all users.</p>
             </div>
 
             <div class="col-md-5">
