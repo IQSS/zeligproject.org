@@ -2,7 +2,7 @@
    :file: zelignav.html
 
 ================================
-History & Name
+Name
 ================================
 
 .. container:: twocol
