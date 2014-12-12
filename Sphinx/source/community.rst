@@ -16,7 +16,7 @@ Join the Zelig Community
 
    .. container:: rightside
 
-      | Register to the Zelig google group and ask questions or participate in discussions on how to use Zelig.
+      | Register to the 'Zelig google group <https://groups.google.com/forum/#!forum/zelig-statistical-software>' and ask questions to the community or participate in discussions on how to use Zelig.
 
 |
 
@@ -31,7 +31,7 @@ Join the Zelig Community
 
    .. container:: rightside
 
-      | `Contact us <mailto:contact@zeligproject.org/>`_ to share with us a story on how you are using Zelig, or  presentations and teaching materials on Zelig. We will share it with the community in this web site.
+      | `Contact us <mailto:contact@zeligproject.org/>`_ privately to share with us a story on how you are using Zelig, or  presentations and teaching materials on Zelig. We will share it with the community in this web site.
 
 |
 
