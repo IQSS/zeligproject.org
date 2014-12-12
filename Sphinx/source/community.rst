@@ -46,7 +46,7 @@ Join the Zelig Community
 
    .. container:: rightside
 
-      | Contribute to documenting Zelig (brief instructions on what they need to do, and link to documentation with more info)
+      | Contribute to documenting Zelig at https://github.com/IQSS/docs.zeligproject.org
 
 |
 
