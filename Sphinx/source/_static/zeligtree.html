@@ -228,14 +228,18 @@ function click(d) {
     d.children = d._children;
     d._children = null;
   } else {
-    var vignette = urls[d.name]; // hack for vignette name
-    var v1 = vignette.substr(0,28);
-    var v3 = vignette.substr(29,100);
-    var v2 = "/en/latest/";
-    var vignette = v1 + v2 + v3;
-    console.log(vignette);
-    window.open(vignette, "_top");
-
+      var vignette = urls[d.name];
+      var v1 = vignette.substr(0,28);
+      var v3 = vignette.substr(29,100);
+      var v2 = "/en/latest/";
+      var vignette = v1 + v2 + v3;
+      if(vignette.substr(vignette.length-8) == "gee.html") {
+          vignette = vignette.substr(0,vignette.length-9) + vignette.substr(vignette.length-8);
+      }
+      else if(vignette.substr(vignette.length-10) == "bayes.html") {
+          vignette = vignette.substr(0,vignette.length-11) + vignette.substr(vignette.length-10);
+      }
+      window.open(vignette, "_top");
   }
   update(d);
 }
