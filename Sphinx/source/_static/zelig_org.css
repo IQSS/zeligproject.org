@@ -55,3 +55,13 @@ a.headerlink {
     border-bottom-right-radius:0;
     border-bottom-left-radius:0;
 }
+
+div.leftside {
+    width: 100px;
+    padding: 0px 3px 0px 0px;
+    float: left;
+}
+
+div.rightside {
+    margin-left: 10px;
+}
