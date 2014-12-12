@@ -65,3 +65,13 @@ div.leftside {
 div.rightside {
     margin-left: 10px;
 }
+
+div.leftsidemovie {
+    width: 300px;
+    padding: 0px 3px 0px 0px;
+    float: left;
+}
+
+div.rightsidemovie {
+    margin-left: 10px;
+}

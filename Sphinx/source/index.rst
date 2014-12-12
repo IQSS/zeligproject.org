@@ -8,9 +8,10 @@
 
    :maxdepth: 1
    
-   team_community
-   history_name
-   contribute_zelig
+   project
+   models
+   team
+   history
 
 .. raw:: html
    :file: zelignav.html

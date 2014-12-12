@@ -61,8 +61,6 @@ Join the Zelig Community
 
    .. container:: rightside
 
-      | Make you R package and models Zelig-enabled.
-
-      Zelig is object-oriented: new models are implemented via inheritance, and only require overwriting a couple of methods, first to provide the R function to be wrapped and then to define the quantities of interest.
+      | Make your R packages and models Zelig-enabled.  Developer guides coming in spring 2015!
 
 
