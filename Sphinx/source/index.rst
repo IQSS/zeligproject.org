@@ -63,7 +63,7 @@ Welcome
                       <div class="text-left" style="padding:12px; font-size:21px;">Models</div>
                     </div>
                     <div class="bg-info" style="padding:12px;background-color:#ADAAB8;">
-                      <a href="models.html" target="_blank"><img class="img-responsive" src="_static/zeligmodels.png" alt="Zelig" width="336" /></a>
+                      <a href="models.html"><img class="img-responsive" src="_static/zeligmodels.png" alt="Zelig" width="336" /></a>
                       <p class="text-left" style="font-size: 18px; font-weight: 200;">Explore all models supported in Zelig 5.</p>
                     </div>
                    </div>
