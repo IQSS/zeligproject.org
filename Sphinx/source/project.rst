@@ -27,7 +27,12 @@ Importantly, Zelig adds considerable infrastructure to improve the use of existi
 
 Zelig includes many specific methods, based on likelihood, frequentist, Bayesian, robust Bayesian, and nonparametric theories of inference.  Developers can make their R packages usable from Zelig by writing a few simple bridge functions.
 
+================================
+Publications
+================================
 
+.. raw:: html
+    :file: publicationswidget.html
 
 ================================
 Name
