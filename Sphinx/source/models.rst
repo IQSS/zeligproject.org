@@ -8,4 +8,4 @@ Models
 *Inheritance Tree*
 
 .. raw:: html
-    :file: _static/zeligtree.html
+    :file: modelstree.html
