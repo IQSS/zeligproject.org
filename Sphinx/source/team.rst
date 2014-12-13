@@ -13,7 +13,7 @@ Zelig leverages (R) code from many researchers and is designed to allow anyone t
 
 **Project Leads:** James Honaker, Christine Choirat
 
-**Zelig 5 Authors:** Christine Choirat, James Honaker, Vito D'Orazio, Muhammed Y. Idris
+**Zelig v5 Authors:** Christine Choirat, James Honaker, Vito D'Orazio, Muhammed Y. Idris
 
 **Original Authors:** Kosuke Imai, Gary King, Olivia Lau
 
