@@ -8,4 +8,4 @@ Models
 *Inheritance Tree*
 
 .. raw:: html
-    :file: modelstree.html
+    :file: modelstreewrap.html
