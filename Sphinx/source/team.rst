@@ -21,7 +21,7 @@ ZeligProject.org Team:  Christine Choirat, Vito D'Orazio, Jennifer McGrath, Ista
 
 Project Manager: `Mercè Crosas <http://www.iq.harvard.edu/people/merce-crosas>`_
 
-**To Cite Zelig,** please reference these two sources:
+**To Cite Zelig,** please reference:
 
      Imai, Kosuke, Gary King, and Olivia Lau. 2008. "Toward A Common Framework for Statistical Analysis and Development." Journal of Computational and Graphical Statistics, Vol. 17, No. 4 (December), pp. 892-913, http://j.mp/msE15c.
    
