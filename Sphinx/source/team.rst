@@ -17,9 +17,9 @@ Zelig leverages (R) code from many researchers and is designed to allow anyone t
 
 **Original Authors:** Kosuke Imai, Gary King, Olivia Lau
 
-**ZeligProject.org Team:**  Christine Choirat, Vito D'Orazio, Jennifer McGrath, Ista Zhan, Phil Durbin, Elda Sotiri, Michael Heppler
+ZeligProject.org Team:  Christine Choirat, Vito D'Orazio, Jennifer McGrath, Ista Zhan, Phil Durbin, Elda Sotiri, Michael Heppler
 
-**Project Manager:** `Mercè Crosas <http://www.iq.harvard.edu/people/merce-crosas>`_
+Project Manager: `Mercè Crosas <http://www.iq.harvard.edu/people/merce-crosas>`_
 
 **To Cite Zelig,** please reference these two sources:
 
