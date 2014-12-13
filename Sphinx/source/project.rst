@@ -35,7 +35,7 @@ Publications
     :file: publicationswidget.html
 
 ================================
-Name
+About the Name
 ================================
 
 .. container:: twocol
