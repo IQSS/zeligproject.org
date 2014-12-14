@@ -11,7 +11,6 @@
    project
    models
    team
-   history
 
 .. raw:: html
    :file: zelignav.html
