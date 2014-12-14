@@ -44,8 +44,6 @@ About the Name
 
      **Zelig (noun) /ˈzɛlɪɡ/ :**  An entity with chameleon like characteristics, able to change appearance and form to fit appropriately in any circumstance.
 
-::
-
       Leonard Zelig was born in Brooklyn, New York at the turn of the century into a Jewish immigrant family. 
       He gained notoriety and celebrity status during the 1920s due to his supernatural ability to look and act like whomever was around him.  
       F. Scott Fitzgerald penned in his memoirs of meeting Leonard Zellman, a charming and impeccably dressed aristocrat, at an affluent garden party in Long Island.  
