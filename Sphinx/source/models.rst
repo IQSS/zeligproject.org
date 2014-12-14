@@ -8,5 +8,5 @@ Models
 *Inheritance Tree*
 
 .. raw:: html
-   :file modelstreewrap.html
+   :file: modelstreewrap.html
  
