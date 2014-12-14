@@ -31,7 +31,7 @@ Join the Zelig Community
 
    .. container:: rightside
 
-      | `Contact us <mailto:contact@zeligproject.org/>`_ privately to share with us a story on how you are using Zelig, or  presentations and teaching materials on Zelig. We will share it with the community in this web site.
+      | `Contact us <mailto:contact@zeligproject.org/>`_ privately to share presentations and teaching materials on Zelig, or a story on how you are using the software.
 
 |
 
