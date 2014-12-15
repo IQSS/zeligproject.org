@@ -66,12 +66,17 @@ div.rightside {
     margin-left: 10px;
 }
 
+div.twocol {
+    padding: 0;
+}
+
 div.leftsidemovie {
-    width: 300px;
-    padding: 0px 3px 0px 0px;
-    float: left;
+    padding: 0;
 }
 
 div.rightsidemovie {
+    width: 400px;
+    padding: 0;
     margin-left: 10px;
+    float: right;
 }
