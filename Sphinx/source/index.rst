@@ -62,7 +62,7 @@ Welcome
                       <div class="text-left" style="padding:12px; font-size:21px;">Models</div>
                     </div>
                     <div class="bg-info" style="padding:12px;background-color:#ADAAB8;">
-                      <a href="models.html"><img class="img-responsive" src="_static/zeligmodels.png" alt="Zelig" width="336" /></a>
+                      <a href="#" data-toggle="modal" data-target="#modelsModal"><img class="img-responsive" src="_static/zeligmodels.png" alt="Zelig" width="336" /></a>
                       <p class="text-left" style="font-size: 18px; font-weight: 200;">Explore all models supported in Zelig 5.</p>
                     </div>
                    </div>
@@ -85,5 +85,22 @@ Welcome
                
         </div>
 
+        <div class="modal fade bs-example-modal-lg" id="modelsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Models</h4>
+              </div>
+              <div class="modal-body" style="overflow:scroll;">
+                <p class="help-block">Inheritance Tree</p>
 
+.. raw:: html
+   :file: modelstree-notused.html
 
+.. raw:: html
+
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
