@@ -9,15 +9,15 @@ Zelig is a common framework for statistical analyses built on the R language.  I
  
 Importantly, Zelig adds considerable infrastructure to improve the use of existing methods:
 
-- Translates hard-to-interpret coefficients into meaningful quantities of interest, and the extent of uncertainty in these quantities (Clarify, for Stata)
+- Translates hard-to-interpret coefficients into meaningful quantities of interest, and the extent of uncertainty in these quantities (`Clarify <http://gking.harvard.edu/publications/clarify-software-interpreting-and-presenting-statistical-results>`_, for Stata)
 
 - Permits easy evaluation of first differences and counterfactuals (WhatIf)
 
-- Combines multiply imputed data sets to address missing data (Amelia)
+- Combines multiply imputed data sets to address missing data (`Amelia <http://gking.harvard.edu/publications/amelia-ii-program-missing-data>`_)
  
 - Automates bootstrapping for all models that permit approximation of the probability distribution and parameter estimates (Bayesian simulation)
 
-- Uses advanced nonparametric matching commands, which overcome limitations of parametric procedures (MatchIt)
+- Uses advanced nonparametric matching commands, which overcome limitations of parametric procedures (`MatchIt <http://gking.harvard.edu/publications/matchit-nonparametric-preprocessing-parametric-causal-inference>`_)
 
 - Generates replication data files so others can replicate analysis results, contributing to the reproducibility of research (Replication Standard)
 

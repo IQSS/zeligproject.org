@@ -61,6 +61,6 @@ Join the Zelig Community
 
    .. container:: rightside
 
-      | Make your R packages and models Zelig-enabled.  Developer guides coming in spring 2015!
+      | Make your R packages and models Zelig-enabled.  The `developer's guide  <http://docs.zeligproject.org/en/latest/devguide.html>`_ will take you through the steps of creating a new Zelig model.
 
 
