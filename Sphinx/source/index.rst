@@ -96,7 +96,7 @@ Welcome
                 <p class="help-block">Inheritance Tree</p>
 
 .. raw:: html
-   :file: modelstree-notused.html
+   :file: modelstree.html
 
 .. raw:: html
 
