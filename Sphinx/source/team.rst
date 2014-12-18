@@ -5,9 +5,6 @@
 Team
 ================================
 
-Zelig is an open-source project developed and maintained by the `Data Science group <http://datascience.iq.harvard.edu/>`_ at Harvard's `Institute for Quantitative Social Science <http://iq.harvard.edu>`_. It was conceived and created by Kosuke Imai, Gary King, and Olivia Lau in 2007. It is `named <http://beta.zeligproject.org/history.html>`_ for Leonard Zelig, a fictional character in a Woody Allen movie who takes on the personality of anyone around him, and thus fits into any situation. Likewise, Zelig software easily adapts to any statistical model and similarly fits into any situation.
-
-Zelig leverages (R) code from many researchers and is designed to allow anyone to contribute their methods to it. Hence, we often refer to Zelig as "everyone's statistical software" and our aim is to make it as accessible as possible. As such, it comes with self-contained documentation that minimizes startup costs, automates model summaries and graphics, and bridges existing R implementations through an intelligible call structure.
 
 **Principal Investigator:** `Gary King <http://gking.harvard.edu/>`_
 
