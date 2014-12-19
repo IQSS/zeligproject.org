@@ -11,7 +11,7 @@ Importantly, Zelig adds considerable infrastructure to improve the use of existi
 
 - Translates hard-to-interpret coefficients into meaningful quantities of interest, and the extent of uncertainty in these quantities (`Clarify <http://gking.harvard.edu/publications/clarify-software-interpreting-and-presenting-statistical-results>`_, for Stata)
 
-- Permits easy evaluation of first differences and counterfactuals (WhatIf)
+- Permits easy evaluation of first differences and counterfactuals (`WhatIf <http://gking.harvard.edu/whatif>`_)
 
 - Combines multiply imputed data sets to address missing data (`Amelia <http://gking.harvard.edu/publications/amelia-ii-program-missing-data>`_)
  
