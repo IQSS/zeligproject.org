@@ -8,8 +8,7 @@
 
    :maxdepth: 1
    
-   project
-   models
+   about
    team
 
 .. raw:: html

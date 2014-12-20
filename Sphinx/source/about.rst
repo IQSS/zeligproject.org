@@ -2,8 +2,33 @@
    :file: zelignav.html
 
 ================================
-Project
+About
 ================================
+
+Team
+------------------
+
+**Principal Investigator:** `Gary King <http://gking.harvard.edu/>`_
+
+**Project Leads:** James Honaker, Christine Choirat
+
+**Zelig v5 Authors:** Christine Choirat, James Honaker, Vito D'Orazio, Muhammed Y. Idris
+
+**Original Authors:** Kosuke Imai, Gary King, Olivia Lau
+
+ZeligProject.org Team:  Christine Choirat, Vito D'Orazio, Jennifer McGrath, Ista Zhan, Phil Durbin, Elda Sotiri, Michael Heppler
+
+Project Manager: `Mercè Crosas <http://www.iq.harvard.edu/people/merce-crosas>`_
+
+**To Cite Zelig,** please reference:
+
+     Imai, Kosuke, Gary King, and Olivia Lau. 2008. "Toward A Common Framework for Statistical Analysis and Development." Journal of Computational and Graphical Statistics, Vol. 17, No. 4 (December), pp. 892-913, http://j.mp/msE15c.
+   
+For questions, please join the `Zelig google group
+<https://groups.google.com/forum/#!forum/zelig-statistical-software>`_.
+
+Project
+------------------
 
 Zelig is a common framework for statistical analyses built on the R language.  It offers a simple, unified structure that encompasses many statistical methods already implemented in R.  Zelig is an easy-to-use program that can estimate, help interpret, and present results of wide ranging statistical methods.  Zelig uses R code from many researchers, making it “everyone’s statistical software.”  We hope it becomes everyone’s statistical software for applications too, as we designed it so anyone can use it or add their methods to it.  Zelig interfaces with existing statistical packages using an intuitive model bridging call structure. Clear, detailed documentation is available that facilitates learning Zelig, with verbatim notation, syntax, and style as R.  Zelig is a powerful tool for teaching, designed so scholars can use the same programs with students that they use for their research.  With only three simple commands, Zelig makes the power of R accessible for all users.
  
@@ -29,7 +54,7 @@ Zelig includes many specific methods, based on likelihood, frequentist, Bayesian
 
 
 About the Name
-------------------
+++++++++++
 
 .. container:: twocol
 
@@ -49,7 +74,7 @@ About the Name
      The Zelig framework intuitively bridges existing R models with statistical advances to yield meaningful estimates that facilitate precise data interpretation and reproducible science.  Zelig incorporates any statistical scenario, making it Everyone’s Statistical Software.
 
 Publications
---------------------
+++++++++++
 
 .. raw:: html
     :file: publicationswidget.html
