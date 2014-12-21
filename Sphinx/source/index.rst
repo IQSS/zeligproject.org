@@ -84,7 +84,7 @@ Welcome
                
         </div>
         <div>
-        See the timeline of future development, and track new feature development, in our project Roadmap.
+        See the timeline of future development, and track new feature development, in our <a href="http://roadmap.datascience.iq.harvard.edu/milestones/milestone-roadmap/Zelig/">project Roadmap</a>.
         </div>
 
         <div class="modal fade bs-example-modal-lg" id="modelsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
