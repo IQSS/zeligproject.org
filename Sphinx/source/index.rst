@@ -83,6 +83,9 @@ Welcome
                <!-- end: block -->
                
         </div>
+        <div>
+        See the timeline of future development, and track new feature development, in our project Roadmap.
+        </div>
 
         <div class="modal fade bs-example-modal-lg" id="modelsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
