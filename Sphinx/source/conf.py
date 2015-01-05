@@ -14,6 +14,7 @@
 
 import sys
 import os
+import datetime
 sys.path.insert(0, os.path.abspath('../../'))
 import sphinx_bootstrap_theme
 
@@ -50,7 +51,9 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Zelig'
-copyright = u'2014, The President & Fellows of Harvard College'
+now = datetime.datetime.now()
+year = now.year
+copyright = u'2014-' +year+ ', The President & Fellows of Harvard College'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
