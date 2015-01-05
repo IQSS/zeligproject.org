@@ -52,7 +52,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Zelig'
 now = datetime.datetime.now()
-year = now.year.str()
+year = str(now.year)
 copyright = u'2014-' +year+ ', The President & Fellows of Harvard College'
 
 # The version info for the project you're documenting, acts as replacement for
