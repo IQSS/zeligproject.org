@@ -80,3 +80,81 @@ div.rightsidemovie {
     margin-left: 10px;
     float: right;
 }
+
+header.jumbotron .row {
+    margin: 0;
+}
+header.jumbotron div[class^='col'] {
+    padding-left: 0;
+}
+header.jumbotron h2 {
+    color: #1D4125;
+}
+
+#about div[class^='col'] {
+    margin-bottom: 2em;
+}
+#about div.bg-quickstart {
+    background-color: #62846A;
+}
+#about div.bg-quickstart-info {
+    padding: 12px;
+    background-color: #D1D7D3;
+}
+#about div.bg-models {
+    background-color: #6A6286;
+}
+#about div.bg-models-info {
+    padding: 12px;
+    background-color: #D7D6DB;
+}
+#about div.bg-community {
+    background-color: #6D5D58;
+}
+#about div.bg-community-info {
+    padding: 12px;
+    background-color: #E2DAD8;
+}
+#about div.block-title a {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+}
+#about p.block-info-text {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#readmore {
+    background: #F0F2EC;
+    padding: 80px 120px;
+}
+#readmore h2.title {
+    color: #1D4125;
+    margin-top: 0;
+}
+#readmore p.info {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#features {
+    padding: 80px 0;
+}
+#features h2.title {
+    color: #1D4125;
+    margin-top: 0;
+}
+#features li {
+    margin-bottom: 10px;
+}
+#features p {
+    margin-top:2em;
+}
+
+#modelsModal div.modal-body {
+    overflow: scroll;
+}
