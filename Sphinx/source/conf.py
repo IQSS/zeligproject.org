@@ -18,6 +18,13 @@ import datetime
 sys.path.insert(0, os.path.abspath('../../'))
 import sphinx_bootstrap_theme
 
+# @cchoirat: download JSON files from Zelig GitHub repositories
+import urllib
+urllib.urlretrieve("https://raw.githubusercontent.com/IQSS/Zelig/master/inst/JSON/zelig5models.json",
+                   "_static/zelig5models.json")
+urllib.urlretrieve("https://raw.githubusercontent.com/IQSS/ZeligChoice/master/inst/JSON/zelig5choicemodels.json",
+                   "_static/zelig5choicemodels.json")
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
