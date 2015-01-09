@@ -17,9 +17,6 @@ echo "Installing pip for Python 2.7"
 scl enable python27 "easy_install pip"
 echo "Install virtualenvwrapper"
 scl enable python27 "pip install virtualenvwrapper"
-echo "Install program-output"
-scl enable python27 "pip install sphinxcontrib-programoutput
-"
 
 echo "Setup virtualenv directory"
 mkdir -p /webapps/virtualenvs
