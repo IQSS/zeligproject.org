@@ -4,7 +4,7 @@ echo "Building docs and copying them into place"
 # FIXME: "No module named virtualenvwrapper"
 #source /opt/rh/python27/root/usr/bin/virtualenvwrapper.sh
 source /webapps/code/zeligproject.org/deploy/workon-docs.zeliproject.org
-echo "Install virtualenvwrapper"
+echo "Install program-output sphinx extension"
 pip install sphinxcontrib-programoutput
 
 cd /webapps/code/docs.zeligproject.org/doc
