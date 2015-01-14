@@ -12,6 +12,7 @@ packageList <- c("knitr",
                  "quantreg",
                  "geepack",
                  "MCMCpack",
+                 "Amelia",
                  "maxLik")
 
 for (i in 1:length(packageList)) {
