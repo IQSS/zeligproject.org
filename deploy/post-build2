@@ -9,6 +9,8 @@ pip install sphinxcontrib-programoutput
 
 cd /webapps/code/docs.zeligproject.org/doc
 git status
+git stash
+git reset --hard
 git pull
 # FIXME: remove all plain .rst and generated .png files from git
 rm -f source/installation_quickstart.rst
