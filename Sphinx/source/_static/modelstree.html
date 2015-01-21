@@ -36,7 +36,7 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 var svg = d3.select("#modelsModalWrap").append("div").append("svg")
-    .attr("width", width )
+    .attr("width", "1170" )
     .attr("height", height)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");

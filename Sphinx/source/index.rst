@@ -21,47 +21,52 @@ Welcome
 .. raw:: html
 
  <div class="container">
-    <!-- Jumbotron Header -->
-    <header class="jumbotron hero-spacer">
-      <div class="row">
-        <div class="col-md-7">
-          <h2>Zelig  &#151; Everyone's Statistical Software</h2>
-          <p>With <b>three simple commands</b>, Zelig’s intuitive <b>model bridging</b> interface presents results for <b>wide ranging statistical models</b>, automates <b>graphics</b>, and translates statistical estimates into interpretable <b>quantities of interest</b>. Zelig makes the <b>power of R</b> accessible for all users. <a href="#readmore">Read More...</a></p>
-        </div>
+  <div class="text-center" style="padding:80px 0;">
+    <img class="img-responsive" style="margin: 0 auto; width:35%;" src=_static/zelig.png alt="Zelig Project" />
+    <p class="lead" style="margin:25px 0;font-size:3em;">Everyone's Statistical Software</p>
+  </div>
 
-        <script>
-          $(document).ready(function(e) {
-            $("a[href^='#']").on('click', function(e) {
+  <!-- <div class="row" style="margin-top:40px;">
+    <div class="col-sm-4 text-center" style="margin-bottom:40px;">
+      <a href="http://docs.zeligproject.org/en/latest/installation_quickstart.html" style="text-decoration:none;"><span class="glyphicon glyphicon-time" style="color: #62846a; font-size:8em;"></span>
+      <span class="h2 center-block" style="color: #62846a;">Quickstart</span></a>
+    </div>
+    <div class="col-sm-4 text-center" style="margin-bottom:40px;">
+      <a style="text-decoration:none;" href="javascript:void(0);" id="models"><span class="glyphicon glyphicon-tree-conifer" style="color: #6a6286; font-size:8em;"></span>
+      <span class="h2 center-block" style="color: #6a6286;">Models</span></a>
+    </div>
+    <div class="col-sm-4 text-center" style="margin-bottom:40px;">
+      <a href="community.html" style="text-decoration:none;"><span class="glyphicon glyphicon-user" style="color: #6d5d58; font-size:8em;"></span>
+      <span class="h2 center-block" style="color: #6d5d58;">Community</span></a>
+    </div>
+  </div> -->
 
-              // prevent default anchor click behavior
-              e.preventDefault();
+  <script>
+    $(document).ready(function(e) {
+      $("a[href^='#']").on('click', function(e) {
 
-              // store hash
-              var hash = this.hash;
+        // prevent default anchor click behavior
+        e.preventDefault();
 
-              // animate
-              $('html, body').animate({
-                   scrollTop: $(this.hash).offset().top
-                 }, 300, function(){
+        // store hash
+        var hash = this.hash;
 
-                   // when done, add hash to url
-                   // (default click behaviour)
-                   window.location.hash = hash;
-              });
+        // animate
+        $('html, body').animate({
+             scrollTop: $(this.hash).offset().top
+           }, 300, function(){
 
-            });
-          });
-        </script>
+             // when done, add hash to url
+             // (default click behaviour)
+             window.location.hash = hash;
+        });
 
-        <div class="col-md-5">
-          <img class="img-responsive" src=_static/zelig.png alt="Zelig Project" />
-        </div>
-      </div>   
-    </header>
+      });
+    });
+  </script>
 
     <!-- ******ABOUT****** -->
-    <div id="about" class="row text-center">
-       <!-- start: block -->    
+    <!-- <div id="about" class="row text-center">
        <div class="col-md-4">
            <div>
             <div class="bg-quickstart">
@@ -73,9 +78,7 @@ Welcome
             </div>
            </div>
        </div>
-       <!-- end: block -->
 
-       <!-- start: block -->    
        <div class="col-md-4">
            <div>
             <div class="bg-models">
@@ -87,9 +90,7 @@ Welcome
             </div>
            </div>
        </div>
-       <!-- end: block -->
-
-       <!-- start: block -->    
+   
        <div class="col-md-4">
            <div>
             <div class="bg-community">
@@ -101,50 +102,42 @@ Welcome
             </div>
            </div>
        </div>
-       <!-- end: block -->
-    </div>
+    </div> -->
 
-    <div id="readmore">
+    <div id="readmore" class="clearfix">
       <h2 class="title text-center">What's Zelig?</h2>
-        <p class="info text-left">Zelig is an easy-to-use, free, open source, general purpose statistics program for estimating, interpreting, and presenting results from any statistical method. Zelig turns the power of R, with thousands of open source packages &#151; but with free ranging syntax, diverse examples, and documentation written for different audiences &#151; into the same three commands and consistent documentation for every method. Zelig uses R code from many researchers, making it "everyone’s statistical software." We hope it becomes everyone’s statistical software for applications too, as we designed it so anyone can use it or add their methods to it. We aim for Zelig to be the best way to do analysis, prepare replication files, learn new methods, or teach.</p>
+        <p class="info text-left">
+        <span class="pull-right text-center" style="display:block; margin:10px;">
+          <a href="http://docs.zeligproject.org/en/latest/installation_quickstart.html" style="text-decoration:none;"><span class="glyphicon glyphicon-time" style="color: #62846a; font-size:6em;"></span>
+          <span class="h3 center-block" style="color: #62846a;">Quickstart</span></a>
+        </span>
+        Zelig is an easy-to-use, free, open source, general purpose statistics program for estimating, interpreting, and presenting results from any statistical method. Zelig turns the power of R, with thousands of open source packages &#151; but with free ranging syntax, diverse examples, and documentation written for different audiences &#151; into the same three commands and consistent documentation for every method. Zelig uses R code from many researchers, making it "everyone’s statistical software." We hope it becomes everyone’s statistical software for applications too, as we designed it so anyone can use it or add their methods to it. We aim for Zelig to be the best way to do analysis, prepare replication files, learn new methods, or teach.</p>
+        <p class="info text-left">Zelig includes many specific methods, based on likelihood, frequentist, Bayesian, robust Bayesian, nonparametric, and population and superpopulation theories of inference. Zelig adds considerable infrastructure to improve the use of existing methods. It translates hard-to-interpret coefficients into meaningful quantities of interest, along with the uncertainty estimates (generalizing <a href="http://gking.harvard.edu/publications/clarify-software-interpreting-and-presenting-statistical-results" target="_blank">Clarify</a> for Stata); 
+        <span class="pull-left text-center" style="display:block; margin:10px;">
+          <a href="community.html" style="text-decoration:none;"><span class="glyphicon glyphicon-user" style="color: #6d5d58; font-size:6em;"></span>
+          <span class="h3 center-block" style="color: #6d5d58;">Community</span></a>
+        </span>
+        automates graphics and numerical summaries for all models; evaluates counterfactuals (incorporating <a href="http://gking.harvard.edu/whatif" target="_blank">WhatIf</a>); combines multiply imputed data sets to impute missing data and correct for measurement error (via <a href="http://gking.harvard.edu/publications/amelia-ii-program-missing-data" target="_blank">Amelia</a>); automates bootstrapping for all models; allows for matching for causal inference to reduce model dependence (via <a href="http://gking.harvard.edu/publications/matchit-nonparametric-preprocessing-parametric-causal-inference" target="_blank">MatchIt</a> and <a href="http://gking.harvard.edu/cem" target="_blank">cem</a>); and generates replication data files (for <a href="http://dataverse.org/" target="_blank">Dataverse</a> to satisfy community replication standards). Developers can make their R packages usable from Zelig by writing a few simple bridge functions. If you have suggestions improvements, we’d love to hear from you!</p>
     </div>
 
-    <!-- ******FEATURES****** --> 
-    <section class="features section" id="features">
-        <div class="container text-center">
-            <h2 class="title">Zelig's Features</h2>
-            <ul class="feature-list list-unstyled">
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Many specific methods, based on likelihood, frequentist, Bayesian, robust Bayesian, nonparametric, and population and superpopulation theories of inference</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Adds considerable infrastructure to improve the use of existing methods</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Translates hard-to-interpret coefficients into meaningful quantities of interest, along with the uncertainty estimates (generalizing Clarify for Stata)</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Automates graphics and numerical summaries for all models</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Evaluates counterfactuals (incorporating WhatIf)</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Combines multiply imputed data sets to impute missing data and correct for measurement error (via Amelia)</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Automates bootstrapping for all models</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Allows for matching for causal inference to reduce model dependence (via MatchIt and cem)</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Generates replication data files (for dataverse to satisfy community replication standards)</li>
-                <li><span class="glyphicon glyphicon-ok"></span>&nbsp; Developers can make their R packages usable from Zelig by writing a few simple bridge functions</li>
-            </ul>
-            <p><span class="glyphicon glyphicon-road"></span>&nbsp; See the timeline of future development, and track new feature development, in our project <a href="http://roadmap.datascience.iq.harvard.edu/milestones/milestone-roadmap/Zelig/">Roadmap</a>.</p>
-        </div><!--//container-->
-    </section><!--//features-->
 
-    <div class="modal fade bs-example-modal-lg" id="modelsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title">Models</h4>
-          </div>
-          <div class="modal-body">
-            <p class="help-block">Inheritance Tree</p>
+    <!-- ******MODELS****** --> 
+    <section class="models section" id="models">
+        <div class="container text-center" style="padding-top:80px;">
+          <h2 class="title">Models</h2>
+          <p class="help-block">Inheritance Tree</p>
 
 .. raw:: html
    :file: _static/modelstree.html
 
 .. raw:: html
 
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div><!--//container-->
+    </section><!--//models-->
+
+
+    <!-- ******FEATURES****** --> 
+    <section class="features section" id="features">
+        <div class="well well-lg" style="background-image:none;background:#f5f5f5;"><span class="glyphicon glyphicon-road"></span>&nbsp; See the timeline of future development, and track new feature development, in our project <a href="http://roadmap.datascience.iq.harvard.edu/milestones/milestone-roadmap/Zelig/">Roadmap</a>.</div>
+    </section><!--//features-->
+
