@@ -12,11 +12,7 @@ Team
 
 **Project Leads:** James Honaker, Christine Choirat
 
-**Zelig v5 Authors:** Christine Choirat, James Honaker, Vito D'Orazio, Muhammed Y. Idris
-
 **Original Authors:** Kosuke Imai, Gary King, Olivia Lau
-
-ZeligProject.org Team:  Christine Choirat, Vito D'Orazio, Jennifer McGrath, Ista Zhan, Phil Durbin, Elda Sotiri, Michael Heppler
 
 Project Manager: `Mercè Crosas <http://www.iq.harvard.edu/people/merce-crosas>`_
 
@@ -26,6 +22,8 @@ Project Manager: `Mercè Crosas <http://www.iq.harvard.edu/people/merce-crosas>`
    
 For questions, please join the `Zelig google group
 <https://groups.google.com/forum/#!forum/zelig-statistical-software>`_.
+
+**We thank contributions from:** Vito D'Orazio, Jennifer McGrath, Muhammed Y. Idris, Ista Zhan, Phil Durbin, Elda Sotiri, Michael Heppler, Justin Grimmer, Jason Wittenberg, Badri Narayan Bhaskar, Skyler J. Cranmer, Ben Goodrich, Ying Lu, Patrick Lam, Nicholas Carnes, Alexander D'Amour, Delia Bailey, Ferdinand Alimadhi, Elena Villalon, Matt Owen.
 
 Project
 ------------------
