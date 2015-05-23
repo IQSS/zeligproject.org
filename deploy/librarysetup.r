@@ -17,10 +17,10 @@ packageList <- c("knitr",
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
-        install.packages(packageList[i], repos = "http://lib.stat.cmu.edu/R/CRAN/")
+        install.packages(packageList[i], dependencies = TRUE, repos = "http://lib.stat.cmu.edu/R/CRAN/")
     }
 }
-update.packages(ask=FALSE, dependencies = c('Suggests'), oldPkgs = packageList, repos= "http://lib.stat.cmu.edu/R/CRAN/")
+update.packages(ask=FALSE, dependencies = TRUE, oldPkgs = packageList, repos= "http://lib.stat.cmu.edu/R/CRAN/")
 
 library(devtools)
 devtools::install_github("IQSS/Zelig")
