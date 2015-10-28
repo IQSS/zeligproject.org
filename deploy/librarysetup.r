@@ -13,7 +13,8 @@ packageList <- c("knitr",
                  "geepack",
                  "MCMCpack",
                  "Amelia",
-                 "maxLik")
+                 "maxLik",
+                 "optmatch")
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
@@ -25,3 +26,5 @@ update.packages(ask=FALSE, dependencies = TRUE, oldPkgs = packageList, repos= "h
 library(devtools)
 devtools::install_github("IQSS/Zelig")
 devtools::install_github("IQSS/ZeligChoice")
+devtools::install_github("IQSS/ZeligGAM")
+
