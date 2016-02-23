@@ -1,7 +1,7 @@
 ## MCMCpack has dependencies on Bioconductor
 
 if (!require(graph)) {
-  source("https://bioconductor.org/biocLite.R")
+  source("http://bioconductor.org/biocLite.R")
   biocLite("graph")
   if (!require(Rgraphviz)) {
     biocLite("Rgraphviz")
