@@ -26,7 +26,9 @@ packageList <- c("knitr",
                  "maxLik",
                  "optmatch",
                  "mgcv",
-                 "survey")
+                 "survey",
+                 "ei",
+                 "eiPack")
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
