@@ -28,7 +28,13 @@ packageList <- c("knitr",
                  "mgcv",
                  "survey",
                  "ei",
-                 "eiPack")
+                 "eiPack",
+                 "cubature", 
+                 "gmm",
+                 "plotrix",
+                 "rgl",
+                 "tmvtnorm",
+                 "ucminf")
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
