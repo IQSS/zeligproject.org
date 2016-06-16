@@ -34,7 +34,9 @@ packageList <- c("knitr",
                  "plotrix",
                  "rgl",
                  "tmvtnorm",
-                 "ucminf")
+                 "ucminf",
+                 "lme4",
+                 "merTools")
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
@@ -48,4 +50,5 @@ devtools::install_github("IQSS/Zelig")
 devtools::install_github("IQSS/ZeligChoice")
 devtools::install_github("IQSS/ZeligGAM")
 devtools::install_github("IQSS/ZeligEI")
+devtools::install_github("IQSS/ZeligMultilevel")
 
