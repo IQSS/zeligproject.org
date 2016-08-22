@@ -1,13 +1,3 @@
-## MCMCpack has dependencies on Bioconductor
-
-if (!require(graph)) {
-  source("http://bioconductor.org/biocLite.R")
-  biocLite("graph")
-  if (!require(Rgraphviz)) {
-    biocLite("Rgraphviz")
-  }
-}
-
 packageList <- c("knitr",
                  "devtools",
                  "sandwich",
