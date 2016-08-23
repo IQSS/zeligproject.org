@@ -40,5 +40,5 @@ devtools::install_github("IQSS/Zelig")
 devtools::install_github("IQSS/ZeligChoice")
 devtools::install_github("IQSS/ZeligGAM")
 devtools::install_github("IQSS/ZeligEI")
-devtools::install_github("IQSS/ZeligMultilevel", ref = "dev")
+devtools::install_github("IQSS/ZeligMultilevel")
 
