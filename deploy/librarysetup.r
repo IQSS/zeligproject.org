@@ -7,7 +7,6 @@ packageList <- c("knitr",
                  "VGAM",
                  "jsonlite",
                  "AER",
-                 "plyr",
                  "dplyr",
                  "quantreg",
                  "geepack",
@@ -15,6 +14,7 @@ packageList <- c("knitr",
                  "Amelia",
                  "maxLik",
                  "optmatch",
+                 "MatchIt",
                  "mgcv",
                  "survey",
                  "ei",
@@ -27,7 +27,8 @@ packageList <- c("knitr",
                  "ucminf",
                  "lme4",
                  "merTools",
-                 "Formula")
+                 "Formula",
+                 "coda")
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
