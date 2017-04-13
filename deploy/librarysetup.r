@@ -26,7 +26,8 @@ packageList <- c("knitr",
                  "tmvtnorm",
                  "ucminf",
                  "lme4",
-                 "merTools")
+                 "merTools",
+                 "Formula")
 
 for (i in 1:length(packageList)) {
     if (!require(packageList[i], character.only = TRUE)) {
